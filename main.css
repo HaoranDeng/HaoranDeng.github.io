@@ -964,11 +964,45 @@ hr.soft {
     width: 0
 }
 
-.icon-button:hover span {
+.-button:hover span {
     width: 3.6rem;
     height: 3.6rem;
     border-radius: 3.6rem;
     margin: -1.8rem
+}
+
+
+.publication-button {
+    background-color: white;
+    border-radius: 1.8rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 3.6rem
+}
+
+.publication-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0
 }
 
 .publication-button:hover span {
