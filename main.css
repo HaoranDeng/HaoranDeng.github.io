@@ -1004,6 +1004,8 @@ hr.soft {
 }
 
 .icon-button .icon-pdf {
+    height: 1.8rem;
+    width: 1.8rem;
     transform: scale(0.5);
 }
 
