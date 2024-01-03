@@ -971,6 +971,14 @@ hr.soft {
     margin: -1.8rem
 }
 
+.publication-button:hover span {
+    width: 1.0rem;
+    height: 1.0rem;
+    border-radius: 1.0rem;
+    margin: -0.3rem
+}
+
+
 .codeforces span {
     background-color: #4099ff
 }
@@ -989,7 +997,7 @@ hr.soft {
 
 .publication-button i {
     background: none;
-    color: white;
+    color: rgb(79, 22, 22);
     height: 1.0rem;
     left: 0;
     line-height: 1.0rem;
@@ -1042,7 +1050,7 @@ hr.soft {
 
 
 
-.icon-button:hover .icon-pdf,
+.publication-button:hover .icon-pdf,
 .icon-button:hover .icon-codeforces,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-github,
