@@ -1024,6 +1024,9 @@ hr.soft {
     color: #0077B5
 }
 
+
+
+.icon-button:hover .icon-pdf,
 .icon-button:hover .icon-codeforces,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-github,
