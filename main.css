@@ -1003,6 +1003,10 @@ hr.soft {
     z-index: 10
 }
 
+.icon-button .icon-pdf {
+    transform: scale(0.5);
+}
+
 .icon-button .icon-codeforces {
     transform: scale(2.0);
     color: #4099ff
