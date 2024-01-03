@@ -973,7 +973,7 @@ hr.soft {
 
 
 .publication-button {
-    background-color: white;
+    background-color: rgb(80, 28, 28);
     border-radius: 1.8rem;
     cursor: pointer;
     display: inline-block;
@@ -1045,7 +1045,7 @@ hr.soft {
     z-index: 10
 } */
 
-/* .icon-button i {
+.icon-button i {
     background: none;
     color: white;
     height: 3.6rem;
@@ -1059,7 +1059,7 @@ hr.soft {
     transition: all 0.3s;
     width: 3.6rem;
     z-index: 10
-} */
+}
 
 .publication-button .icon-pdf {
     color: #4099ff
