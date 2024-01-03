@@ -1045,7 +1045,7 @@ hr.soft {
     z-index: 10
 } */
 
-/* .icon-button i {
+.icon-button i {
     background: none;
     color: white;
     height: 3.6rem;
@@ -1059,7 +1059,7 @@ hr.soft {
     transition: all 0.3s;
     width: 3.6rem;
     z-index: 10
-} */
+}
 
 
 .icon-button .icon-codeforces {
