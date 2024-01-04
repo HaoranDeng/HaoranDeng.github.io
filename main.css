@@ -1029,7 +1029,7 @@ hr.soft {
     background-color: #000
 }
 
-.publication-button i {
+/* .publication-button i {
     background: none;
     color: rgb(79, 22, 22);
     height: 1.0rem;
@@ -1043,7 +1043,7 @@ hr.soft {
     transition: all 0.3s;
     width: 1.0rem;
     z-index: 10
-}
+} */
 
 .icon-button i {
     background: none;
