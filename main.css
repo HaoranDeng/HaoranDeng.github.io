@@ -1005,12 +1005,12 @@ hr.soft {
     width: 0
 }
 
-.publication-button:hover span {
+/* .publication-button:hover span {
     width: 1.0rem;
     height: 1.0rem;
     border-radius: 1.0rem;
     margin: -0.3rem
-}
+} */
 
 
 .codeforces span {
