@@ -1083,7 +1083,7 @@ hr.soft {
     color: #4099ff
 }
 
-.publication-button:hover .icon-pdf,
+/* .publication-button:hover .icon-pdf, */
 .icon-button:hover .icon-codeforces,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-github,
