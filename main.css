@@ -1614,9 +1614,9 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-family: 'Roboto', sans-serif, Helvetica
 }
 
-.pub-list {
+/* .pub-list {
     overflow: auto
-}
+} */
 
 .pub {
     /* border-top: thin solid #c0c0c0; */
