@@ -973,13 +973,13 @@ hr.soft {
 
 .publication-button {
     /* background-color: rgba(255, 255, 255, 0); */
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     /* cursor: pointer; */
     display: inline-block;
     /* font-size: 4.0rem; */
     transform: scale(2.0);
-    height: 2rem;
-    line-height: 2rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
     margin: 0 5px;
     position: relative;
     text-align: center;
