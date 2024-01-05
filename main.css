@@ -972,8 +972,8 @@ hr.soft {
 
 
 .publication-button {
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 1rem;
+    /* background-color: rgba(255, 255, 255, 0); */
+    border-radius: 2.5rem;
     /* cursor: pointer; */
     display: inline-block;
     /* font-size: 4.0rem; */
