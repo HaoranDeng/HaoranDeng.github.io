@@ -1073,10 +1073,10 @@ hr.soft {
     color: #0077B5
 }
 
-.publication-button .icon-pdf {
+/* .publication-button .icon-pdf {
     transform: scale(3.0);
     color: #4099ff
-}
+} */
 
 /* .publication-button:hover .icon-pdf, */
 .icon-button:hover .icon-codeforces,
