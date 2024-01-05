@@ -979,7 +979,7 @@ hr.soft {
     /* font-size: 4.0rem; */
     transform: scale(2.0);
     height: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     margin: 0 5px;
     position: relative;
     text-align: center;
