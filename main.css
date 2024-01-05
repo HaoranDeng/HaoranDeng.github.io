@@ -992,7 +992,7 @@ hr.soft {
     text-decoration: none
 }
 
-.publication-button span {
+/* .publication-button span {
     border-radius: 0;
     display: block;
     height: 0;
@@ -1005,7 +1005,7 @@ hr.soft {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     width: 0
-}
+} */
 
 .publication-button:hover {
     text-decoration: none;
