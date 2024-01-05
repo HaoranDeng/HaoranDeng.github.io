@@ -1007,6 +1007,10 @@ hr.soft {
     width: 0
 }
 
+.publication-button:hover {
+    text-decoration: none;
+}
+
 .codeforces span {
     background-color: #4099ff
 }
