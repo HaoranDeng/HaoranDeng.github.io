@@ -988,7 +988,8 @@ hr.soft {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 1.5rem
+    width: 1.5rem;
+    text-decoration: none
 }
 
 .publication-button span {
