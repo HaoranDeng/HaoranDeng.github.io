@@ -991,6 +991,7 @@ hr.soft {
 }
 
 .publication-button span {
+    transform: scale(3.0);
     border-radius: 0;
     display: block;
     height: 0;
