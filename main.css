@@ -978,7 +978,7 @@ hr.soft {
     /* cursor: pointer; */
     display: inline-block;
     /* font-size: 4.0rem; */
-    transform: scale(3.0);
+    transform: scale(2.0);
     height: 4.0rem;
     line-height: 4.0rem;
     margin: 0 5px;
@@ -992,7 +992,7 @@ hr.soft {
 }
 
 .publication-button span {
-    transform: scale(3.0);
+    /* transform: scale(3.0); */
     border-radius: 0;
     display: block;
     height: 0;
