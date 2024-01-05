@@ -1072,6 +1072,7 @@ hr.soft {
 }
 
 .publication-button .icon-pdf {
+    transform: scale(2.0);
     color: #4099ff
 }
 
