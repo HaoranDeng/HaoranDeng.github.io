@@ -740,7 +740,6 @@ pre>code {
 }
 
 @media screen and (max-width: 800px) {
-
     .profile-col-1,
     .profile-col-2 {
         width: -webkit-calc(50% - (30px / 2));
@@ -979,7 +978,7 @@ hr.soft {
     display: inline-block;
     /* font-size: 4.0rem; */
     transform: scale(1.0);
-    height: 2.5rem;
+    height: 5.0 rem;
     line-height: 2.5rem;
     margin: 0 5px;
     position: relative;
@@ -992,20 +991,6 @@ hr.soft {
     text-decoration: none
 }
 
-/* .publication-button span {
-    border-radius: 0;
-    display: block;
-    height: 0;
-    left: 50%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    width: 0
-} */
 
 .publication-button:hover {
     text-decoration: none;
@@ -1027,21 +1012,6 @@ hr.soft {
     background-color: #000
 }
 
-/* .publication-button i {
-    background: none;
-    color: rgb(79, 22, 22);
-    height: 1.0rem;
-    left: 0;
-    line-height: 1.0rem;
-    position: absolute;
-    top: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    width: 1.0rem;
-    z-index: 10
-} */
 
 .icon-button i {
     background: none;
