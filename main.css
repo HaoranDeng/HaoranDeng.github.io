@@ -1657,7 +1657,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .pub {
         position: relative;
         margin: 10px auto;
@@ -1665,7 +1665,7 @@ div.paginate-container li:nth-last-child(2) a:after {
         width: -webkit-calc(100% - (30px / 2));
         width: calc(100% - (30px / 2))
     }
-}
+} */
 
 .pub-right>.title {
     font-weight: 650
