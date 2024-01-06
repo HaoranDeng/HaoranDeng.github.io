@@ -1622,8 +1622,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     margin-top: 5px;
     margin-bottom: 10px;
     /* padding-top: 15px; */
-    height: 8rem;
-    overflow: auto
+    height: 7.5rem;
+    /* overflow: auto */
 }
 
 /* .pub-left {
