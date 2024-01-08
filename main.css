@@ -997,6 +997,10 @@ hr.soft {
     text-decoration: none;
 }
 
+.publication-button:visited{
+    color: #9b3022;
+}
+
 .codeforces span {
     background-color: #4099ff
 }
