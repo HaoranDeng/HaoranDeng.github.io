@@ -722,8 +722,8 @@ pre>code {
 
 .profile-col {
     float: left !important;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center
