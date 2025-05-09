@@ -695,7 +695,7 @@ pre>code {
     border-radius: 25px;
     position: relative;
     /* top: 20%; */
-    top: auto;
+    top: 30px;
     width: 800px;
     margin-left: auto;
     margin-right: auto
