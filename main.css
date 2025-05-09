@@ -739,7 +739,7 @@ pre>code {
     width: calc(60% - (30px / 2))
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .profile-col-1,
     .profile-col-2 {
         width: -webkit-calc(50% - (30px / 2));
