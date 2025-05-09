@@ -729,14 +729,14 @@ pre>code {
     text-align: center
 }
 
-.profile-col-0 {
+/* .profile-col-0 {
     width: -webkit-calc(25% - (30px / 2));
     width: calc(25% - (30px / 2))
-}
+} */
 
 .profile-col-1 {
-    width: -webkit-calc(25% - (30px / 2));
-    width: calc(25% - (30px / 2))
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2))
 }
 
 .profile-col-2 {
