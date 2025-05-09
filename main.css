@@ -744,7 +744,7 @@ pre>code {
     width: calc(50% - (30px / 2))
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
     .profile-col-0
     .profile-col-1,
     .profile-col-2 {
@@ -753,7 +753,7 @@ pre>code {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .profile-col {
         position: relative;
         margin: 10px auto;
@@ -768,7 +768,7 @@ pre>code {
     width: 168px;
     border-width: 4px;
     border-style: solid;
-    border-radius: 50%
+    border-radius: 8px
 }
 
 .border-dark {
