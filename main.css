@@ -737,7 +737,7 @@ pre>code {
 }
 
 .profile-col-2 {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     width: -webkit-calc(55% - (30px / 2));
     width: calc(55% - (30px / 2))
 }
