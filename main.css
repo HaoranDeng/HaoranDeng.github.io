@@ -771,6 +771,10 @@ pre>code {
     border-radius: 8px
 }
 
+.rotated {
+    transform: rotate(180deg);
+}
+
 .border-dark {
     border-color: #292929
 }
