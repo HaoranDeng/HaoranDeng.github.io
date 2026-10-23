@@ -1,0 +1,37 @@
+{
+  "metric": "Denoising time",
+  "unit": "seconds",
+  "items": {
+    "tokyo": {
+      "dense": 1677.4738632207736,
+      "gca": 546.7418273612857
+    },
+    "sea-turtle": {
+      "dense": 1624.028787329793,
+      "gca": 646.919246812351
+    },
+    "motocross": {
+      "dense": 1613.0778889441863,
+      "gca": 656.3447154546157
+    },
+    "fireworks": {
+      "dense": 1609.5210280017927,
+      "gca": 655.3138239327818
+    },
+    "ocean-waves": {
+      "dense": 1626.0624142736197,
+      "gca": 647.9604798769578
+    },
+    "lioness": {
+      "dense": 1609.8170050624758,
+      "gca": 651.9285177895799
+    }
+  },
+  "protocols": {
+    "fireworks": "prewarmed-denoising-v1",
+    "ocean-waves": "prewarmed-denoising-v1",
+    "lioness": "prewarmed-denoising-v1",
+    "sea-turtle": "prewarmed-denoising-v1",
+    "motocross": "prewarmed-denoising-v1"
+  }
+}

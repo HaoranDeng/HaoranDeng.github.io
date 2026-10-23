@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "slug": "sea-turtle",
+      "label": "Sea turtle",
+      "gif": "media/sea-turtle-f724524097d0-denoising-full.gif",
+      "poster": "media/sea-turtle-7e242c72d2fb-denoising-full-poster.png",
+      "timings": {
+        "dense": 1624.028787329793,
+        "gca": 646.919246812351
+      },
+      "timing_protocol": "prewarmed-denoising-v1"
+    },
+    {
+      "slug": "motocross",
+      "label": "Motocross",
+      "gif": "media/motocross-99ccab69337f-denoising-full.gif",
+      "poster": "media/motocross-402a98c0e4fa-denoising-full-poster.png",
+      "timings": {
+        "dense": 1613.0778889441863,
+        "gca": 656.3447154546157
+      },
+      "timing_protocol": "prewarmed-denoising-v1"
+    },
+    {
+      "slug": "fireworks",
+      "label": "Fireworks",
+      "gif": "media/fireworks-bfe454bae7b5-denoising-full.gif",
+      "poster": "media/fireworks-649dbbfbb915-denoising-full-poster.png",
+      "timings": {
+        "dense": 1609.5210280017927,
+        "gca": 655.3138239327818
+      },
+      "timing_protocol": "prewarmed-denoising-v1"
+    },
+    {
+      "slug": "ocean-waves",
+      "label": "Ocean waves",
+      "gif": "media/ocean-waves-94003e22ca70-denoising-full.gif",
+      "poster": "media/ocean-waves-cb004292c65a-denoising-full-poster.png",
+      "timings": {
+        "dense": 1626.0624142736197,
+        "gca": 647.9604798769578
+      },
+      "timing_protocol": "prewarmed-denoising-v1"
+    },
+    {
+      "slug": "lioness",
+      "label": "Lioness",
+      "gif": "media/lioness-23c98568d307-denoising-full.gif",
+      "poster": "media/lioness-5990b2292927-denoising-full-poster.png",
+      "timings": {
+        "dense": 1609.8170050624758,
+        "gca": 651.9285177895799
+      },
+      "timing_protocol": "prewarmed-denoising-v1"
+    }
+  ],
+  "complete": true
+}
