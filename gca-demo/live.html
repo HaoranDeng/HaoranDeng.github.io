@@ -15,8 +15,8 @@
 <header><p class="eyebrow">GRID COMPRESSED ATTENTION</p><h1>Your words.<br><span>In motion.</span></h1><p class="intro">Generate a short video with GCA. Start the model once, then explore as many prompts as you like.</p></header>
 <div class="workspace">
 <section class="controls" aria-label="Generation controls">
-<div class="model"><div><span class="pill">GCA C4</span><h2>Wan 1.3B · 4 steps</h2><p>720p · 81 frames · ~5-second video</p></div><span id="status" role="status">Locked</span></div>
-<form id="unlock"><label for="access">Lab access code</label><div class="row"><input id="access" type="password" autocomplete="current-password" required placeholder="Enter your access code"><button type="submit" class="secondary">Unlock</button></div></form>
+<div class="model"><div><span class="pill">GCA C4</span><h2>Wan 1.3B · 4 steps</h2><p>720p · 81 frames · ~5-second video</p></div><span id="status" role="status">Connecting</span></div>
+<p class="hint">Open to everyone · No access code needed. One video can be generated at a time on the shared model.</p>
 <div class="row power"><button id="start" disabled>Start model</button><button id="stop" class="secondary" disabled>Release GPU</button></div>
 <p id="model-note" class="hint">First start takes a few minutes. Once ready, the model stays loaded until you release the GPU.</p>
 <form id="generate"><label for="prompt">Describe your video</label><textarea id="prompt" rows="6" maxlength="2000" placeholder="A sea turtle glides through clear turquoise water, sunlight rippling across its shell. A slow underwater tracking shot." required></textarea>
@@ -25,6 +25,6 @@
 <button id="submit" type="submit" disabled>Generate video <span>↗</span></button><p class="hint">A warm test took 12.2 seconds to generate and save. Download time varies. The completed video appears here when ready.</p></form>
 <p id="message" role="status" aria-live="polite"></p>
 </section>
-<section class="result" aria-label="Generated video"><div class="result-head"><h2>Your generation</h2><span id="elapsed"></span></div><div class="stage" id="stage"><div id="placeholder"><div class="orbit">G</div><h3>A scene starts with a sentence.</h3><p>Start the model and describe what you want to see.</p></div><video id="video" controls playsinline loop hidden></video></div><div class="result-foot"><span id="result-info">Private lab session · One generation at a time</span><a id="download" hidden download="gca-video.mp4">Download video ↓</a></div></section>
+<section class="result" aria-label="Generated video"><div class="result-head"><h2>Your generation</h2><span id="elapsed"></span></div><div class="stage" id="stage"><div id="placeholder"><div class="orbit">G</div><h3>A scene starts with a sentence.</h3><p>Start the model and describe what you want to see.</p></div><video id="video" controls playsinline loop hidden></video></div><div class="result-foot"><span id="result-info">Public demo · One generation at a time</span><a id="download" hidden download="gca-video.mp4">Download video ↓</a></div></section>
 </div><footer>Experimental DMD checkpoint · GCA C4 self-attention · One H200 per session<br>GPU use counts toward the shared scai6 + scai7 limit, including while idle.</footer>
-</main><script src="live.js"></script></body></html>
+</main><script src="live.js?v=public-20261030"></script></body></html>
