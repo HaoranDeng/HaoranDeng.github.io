@@ -1,7 +1,17 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GCA · Video Studio</title><link rel="stylesheet" href="live.css"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GCA · Video Studio</title><link rel="stylesheet" href="live.css"><style>
+.gca-site-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 28px;padding:0 0 18px;border-bottom:1px solid #dce4dc;font:600 14px/1.4 system-ui,sans-serif;text-align:left}
+.gca-site-nav .gca-brand{color:#244b3e;text-decoration:none;font-weight:750;letter-spacing:.06em}
+.gca-site-nav .gca-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.gca-site-nav .gca-tabs a{display:block;padding:10px 16px;border:1px solid #d6e1d7;border-radius:999px;color:#315b4b;background:#fff;text-decoration:none;white-space:nowrap}
+.gca-site-nav .gca-tabs a[aria-current="page"]{background:#244b3e;color:#fff;border-color:#244b3e}
+.gca-site-nav .gca-tabs a:hover{background:#e5eee6;color:#244b3e}
+.gca-site-nav a:focus-visible{outline:3px solid #5cab8a;outline-offset:3px}
+@media(max-width:480px){.gca-site-nav{gap:12px}.gca-site-nav .gca-tabs{width:100%}.gca-site-nav .gca-tabs a{padding:9px 13px;font-size:13px}}
+</style>
+</head>
 <body><main>
-<nav><a href="./">← GCA comparisons</a><span>LAB PREVIEW</span></nav>
+<nav class="gca-site-nav" aria-label="GCA pages"><a class="gca-brand" href="./">GCA</a><div class="gca-tabs"><a href="./">Demo samples</a><a href="live.html" aria-current="page">Generate video ↗</a></div></nav>
 <header><p class="eyebrow">GRID COMPRESSED ATTENTION</p><h1>Your words.<br><span>In motion.</span></h1><p class="intro">Generate a short video with GCA. Start the model once, then explore as many prompts as you like.</p></header>
 <div class="workspace">
 <section class="controls" aria-label="Generation controls">
