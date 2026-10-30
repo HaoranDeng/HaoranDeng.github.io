@@ -7,9 +7,20 @@
   <meta name="description" content="Dense and GCA denoising comparison.">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23244ce8'/%3E%3Cpath d='M7 8h7v7H7zm11 0h7v7h-7zM7 19h7v7H7z' fill='white'/%3E%3Crect x='18' y='19' width='7' height='7' rx='3.5' fill='%2396e6fa'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
+<style>
+.gca-site-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 28px;padding:0 0 18px;border-bottom:1px solid #dce4dc;font:600 14px/1.4 system-ui,sans-serif;text-align:left}
+.gca-site-nav .gca-brand{color:#244b3e;text-decoration:none;font-weight:750;letter-spacing:.06em}
+.gca-site-nav .gca-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.gca-site-nav .gca-tabs a{display:block;padding:10px 16px;border:1px solid #d6e1d7;border-radius:999px;color:#315b4b;background:#fff;text-decoration:none;white-space:nowrap}
+.gca-site-nav .gca-tabs a[aria-current="page"]{background:#244b3e;color:#fff;border-color:#244b3e}
+.gca-site-nav .gca-tabs a:hover{background:#e5eee6;color:#244b3e}
+.gca-site-nav a:focus-visible{outline:3px solid #5cab8a;outline-offset:3px}
+@media(max-width:480px){.gca-site-nav{gap:12px}.gca-site-nav .gca-tabs{width:100%}.gca-site-nav .gca-tabs a{padding:9px 13px;font-size:13px}}
+</style>
 </head>
 <body>
   <main>
+    <nav class="gca-site-nav" aria-label="GCA pages"><a class="gca-brand" href="./">GCA</a><div class="gca-tabs"><a href="./" aria-current="page">Demo samples</a><a href="live.html">Generate video ↗</a></div></nav>
     <h1>Grid Compressed Attention</h1>
     <p style="margin:20px 0 32px"><a href="live.html" style="display:inline-block;padding:13px 22px;border-radius:999px;background:#244b3e;color:white;text-decoration:none;font:600 15px system-ui">Generate your own video ↗</a> <span style="display:inline-block;margin:8px 12px;font:14px system-ui;color:#666">GCA C4 · 1.3B · 4 steps · Lab access</span></p>
     <picture>
